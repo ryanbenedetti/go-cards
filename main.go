@@ -8,5 +8,8 @@ package main
 
 func main() {
 	cards := newDeck()
+	//cards.saveToFile("rhino_cards")
+	// cards := newDeckFromFile("rhino_cards")
+	cards.shuffle()
 	cards.print()
 }
